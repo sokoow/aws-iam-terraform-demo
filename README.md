@@ -2,9 +2,11 @@
 
 ## It makes use of following parts:
 
-**terraform-aws-modules/iam/aws//modules/iam-user** - users are being created using this module, I'm using PGP
-**terraform-aws-modules/iam/aws//modules/iam-group-with-assumable-roles-policy** - this is a group abstraction, that has assumable role pinned to it
-**terraform-aws-modules/iam/aws//modules/iam-assumable-role** - and as assumable role in the end
+- **terraform-aws-modules/iam/aws//modules/iam-user** - users are being created using this module, I'm using PGP
+
+- **terraform-aws-modules/iam/aws//modules/iam-group-with-assumable-roles-policy** - this is a group abstraction, that has assumable role pinned to it
+
+- **terraform-aws-modules/iam/aws//modules/iam-assumable-role** - and as assumable role in the end
 
 Structure is as follows:
 
