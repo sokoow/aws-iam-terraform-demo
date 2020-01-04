@@ -1,6 +1,6 @@
-# This is a demo of a terraform 0.12.x code and what can be done with IAM modules from: https://github.com/terraform-aws-modules/terraform-aws-iam/
+## This is a demo of a terraform 0.12.x code and what can be done with IAM modules from: https://github.com/terraform-aws-modules/terraform-aws-iam/
 
-It makes use of following parts:
+## It makes use of following parts:
 
 **terraform-aws-modules/iam/aws//modules/iam-user** - users are being created using this module, I'm using PGP
 **terraform-aws-modules/iam/aws//modules/iam-group-with-assumable-roles-policy** - this is a group abstraction, that has assumable role pinned to it
